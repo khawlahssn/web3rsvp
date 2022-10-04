@@ -1,15 +1,11 @@
-# Basic Sample Hardhat Project
+# A Full-stack RSVP Dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+The smart contract includes the following scenarios:
 
-Try running some of the following tasks:
+- Event organizers can `createNewEvent`
+- Attendees can `createNewRSVP` to a specific event
+- Event organizer can `confirmAttendee` or `confirmAllAttendees`
+- If someone did not show up to the event, organizer can `withdrawUnclaimedDeposits`
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+
+You can view the verified contract on [Polygonscan](https://mumbai.polygonscan.com/address/0x738545dA94E9eFFf3aB5d9c9DE2DF2D81FE88A43). 🔎
